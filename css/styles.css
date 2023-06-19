@@ -1,0 +1,63 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Teko', sans-serif;
+    margin: 250px;
+    background-color: whitesmoke;
+    
+}
+.botonera{
+    width: 400px;
+    height: 300px;
+    background-color: #757575;
+    padding: 15px 15px 25px 22px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 75px;
+    grid-row: 100px 100px 100px 75px;
+    gap: 5px;
+    width: 800px;
+    margin-top: 5px;
+}
+.borrar {
+    width: 106px;
+    margin: 0px 0px 0px 285px;
+    background-color: yellow;
+    height: 46px;
+    font-size: 42px;
+    text-align: center;
+}
+.contenedor .numero {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.contenedor .numero:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.botonera .borrar:hover {
+    background-color: rgb(52, 157, 20);
+    cursor: pointer;
+}
+.contenedor .numero.cero {
+    grid-column: 3/4;
+
+}
+.contenedor .btn-operator:hover {
+    background-color: rgb(172, 176, 161);
+    cursor: pointer;
+}
+.contenedor .igual:hover {
+    background-color: rgb(172, 176, 161);
+    cursor: pointer;
+}
+
+.pantalla{
+    background-color: white;
+    width: 279px;
+    height: 46px;
+
+}
